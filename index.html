@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Angular UI</title>
+	<style>
+		
+	</style>
+	<link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="public/lib/angular-ui-select/dist/select.min.css">
+		
+	<script src='public/lib/jquery/dist/jquery.min.js'></script>
+	<script src='public/lib/angular/angular.min.js'></script>
+ 	<script src='public/lib/angular-ui-router/release/angular-ui-router.min.js'></script>
+	<script src='app.js'></script>
+    	
+</head>
+<body>
+	<ul>
+		<li><a ui-sref="home">Home</a></li>
+		<li><a ui-sref="about">About</a></li>
+	</ul>
+	<div ui-view></div>
+	
+</body>
+</html>
